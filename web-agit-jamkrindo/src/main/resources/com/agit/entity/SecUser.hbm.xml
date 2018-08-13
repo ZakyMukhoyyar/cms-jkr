@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.agit.entity.security.SecUser" schema="cms" table="sec_user">
+
+		<id name="id" type="long">
+			<column name="usr_id" />
+			<generator class="sequence">
+				<param name="sequence">cms.seq_user</param>
+			</generator>
+		</id>
+
+		<property name="usrLogin" type="string">
+			<column name="usr_loginname" length="50" not-null="true" />
+		</property>
+		
+		<property name="usrPassword" type="string">
+			<column name="usr_password" length="120" />
+		</property>
+		
+		<property name="usrLastName" type="string">
+			<column name="usr_lastname" length="100" />
+		</property>
+		
+		<property name="usrFirstName" type="string">
+			<column name="usr_firstname" length="100" />
+		</property>
+		
+		<property name="usrEmail" type="string">
+			<column name="usr_email" length="100" />
+		</property>
+		
+		<property name="usrPhone" type="string">
+			<column name="usr_phone" length="20" />
+		</property>
+				
+		<property name="createdDate" type="java.util.Date">
+        	<column name="creation_date"/>
+        </property>
+        
+        <property name="createdBy" type="long">
+        	<column name="created_by"/>
+        </property>
+        
+        <property name="lastUpdatedBy" type="long">
+        	<column name="last_updated_by"/>
+        </property>
+       
+        <property name="lastUpdatedDate" type="java.util.Date">
+        	<column name="last_updated_date"/>
+        </property>
+				        	
+        <property name="usrType" type="string">
+        	<column name="usr_type"/>
+        </property>
+        
+        <set name="userroles" inverse="true">
+			<key>
+				<column name="usr_id" />
+			</key>
+			<one-to-many class="com.agit.entity.security.SecUserrole" />
+		</set>
+	</class>
+</hibernate-mapping>

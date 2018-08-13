@@ -1,0 +1,66 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#main {
+    width: 80%;
+    height: 100%;
+    padding-left: 3%;
+    float: left;
+}
+
+#header {
+    height: 10%;
+}
+
+#header h2 {
+    float: left;
+}
+
+#header a {
+    padding: 20px;
+    float:left;
+}
+
+input#chat {
+    width: 96%;
+    margin-top: 2%;
+}
+
+#console-container {
+    width: 100%;
+    height: 80%;
+}
+
+#console, #loggedUsers {
+    border: 1px solid #CCCCCC;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    height: 98%;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 95%;
+}
+
+#console p, #loggedUsers p {
+    padding: 0;
+    margin: 0;
+}
+
+#aside {
+    height: 100%;
+    width: 17%;
+    float: left;
+}
+
+#loggedUsers {
+    height: 85%;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.noscript h2 {
+    color: #ff0000;
+}
