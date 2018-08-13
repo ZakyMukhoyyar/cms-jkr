@@ -31,6 +31,9 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2>Dashboard Klaim Mitra</h2>
+        </div>
         <div class="row">
             <div class="col-md-9">
                 <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
