@@ -171,7 +171,7 @@
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>Position</th>
-                                    <th></th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                         </table>

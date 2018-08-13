@@ -103,7 +103,7 @@
                                     <tr>
                                         <th>Role Name</th>
                                         <th>Description</th>
-                                        <th width="5%"></th>
+                                        <th width="5%">Actions</th>
                                     </tr>
                                 </thead>
                             </table>
