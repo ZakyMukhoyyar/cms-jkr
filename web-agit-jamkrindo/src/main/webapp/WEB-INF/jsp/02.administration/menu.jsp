@@ -112,7 +112,7 @@
                                         <th>Description</th>
                                         <th>Url</th>
                                         <th>Status</th>
-                                        <th width="5%"></th>
+                                        <th width="5%">Actions</th>
                                     </tr>
                                 </thead>
                             </table>
