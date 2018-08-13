@@ -20,6 +20,7 @@
         <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/favicon.ico">
 
         <!-- CSS -->
+        <script src="${pageContext.request.contextPath}/assets/charts/Chart.js"></script>
         <link href="${pageContext.request.contextPath}/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="${pageContext.request.contextPath}/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="${pageContext.request.contextPath}/assets/plugins/bootstrap-toastr/toastr.min.css" rel="stylesheet" type="text/css"/>
