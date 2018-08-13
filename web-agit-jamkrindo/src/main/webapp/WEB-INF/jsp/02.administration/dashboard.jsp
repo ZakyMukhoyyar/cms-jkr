@@ -1,22 +1,39 @@
 <!DOCTYPE HTML>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
-    <head>  
+    <head>
+        <script type="text/javascript">
+            new Chart(document.getElementById("bar-chart-grouped"), {
+                type: 'bar',
+                data: {
+                    labels: ["Januari", "Februari", "Maret", "April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"],
+                    datasets: [
+                        {
+                            label: "Jumlah Pengajuan",
+                            backgroundColor: "#5FC7A9",
+                            data: [133, 221, 783, 342, 321, 341, 342, 341, 445, 654, 312, 543]
+                        }, {
+                            label: "Pengajuan disetujui",
+                            backgroundColor: "#74ABC4",
+                            data: [408, 547, 675, 734, 456, 232, 432, 124, 543, 433, 54, 54]
+                        }
+                    ]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Jumlah Pengajuan vs Pengajuan disetujui'
+                    }
+                }
+            });
+
+
+        </script>
     </head>
     <body>
         <div class="row">
             <div class="col-md-9">
-                <div class="widget">
-                    <div class="widget-header">
-                        <h3>
-                            <i class="fa fa-bar-chart-o"></i> Jumlah pengajuan vs pengajuan disetujui
-                        </h3>
-                    </div>
-                    <div class="widget-content">
-                        <div class="demo-flot-chart" id="demo-vertical-bar-chart"
-                             data-ctype="#year"></div>
-                    </div>
-                </div>
+                <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
             </div>
             <div class="col-md-3">
                 <div class="col-lg-7 ">
