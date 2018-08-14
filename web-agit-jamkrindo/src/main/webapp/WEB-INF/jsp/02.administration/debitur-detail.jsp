@@ -62,6 +62,7 @@
                         <ul class="breadcrumb">
                             <li><i class="fa fa-home"></i></li>
                             <li><a href="${pageContext.request.contextPath}/administration/dashboard/">Administrator</a></li>
+                            <li><a href="${pageContext.request.contextPath}/administration/dashboard/">Dashboard</a></li>
                             <li class="active"><a href="${pageContext.request.contextPath}/administration/debitur-detail/">Detail Debitur</a></li>
                         </ul>
                         <!--<h3> Detail Debitur </h3>-->
@@ -121,7 +122,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/Logo_BRI.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -131,7 +132,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Budiyanto</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BNI_logo.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bca.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -141,7 +142,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BII_2012.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -151,7 +152,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BII_2012.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -161,7 +162,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BNI_logo.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -171,7 +172,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/Logo_BRI.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -181,7 +182,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BNI_logo.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -191,7 +192,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BII_2012.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bca.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -201,7 +202,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BII_2012.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -211,7 +212,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/Logo_BRI.png" height="30px" alt="logo" /></td>
+                                        <td  style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -221,7 +222,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/Logo_BRI.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
@@ -231,7 +232,7 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: center">Budi Karyudi</td>
-                                        <td><img src="${pageContext.request.contextPath}/assets/img/BNI_logo.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /></td>
                                         <td style="text-align: center">Kebon Jeruk Jakarta</td>
                                         <td style="text-align: center">Jakarta Barat</td>
                                         <td style="text-align: center">Klaim dibayar</td>
