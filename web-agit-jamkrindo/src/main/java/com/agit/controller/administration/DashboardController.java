@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.agit.entity.security.SecUser;
 import com.agit.controller.BaseController;
+import static com.agit.controller.administration.MenuController.PRIVILEDGE;
 
 @Controller
 @RequestMapping("/administration/dashboard/")
@@ -22,6 +23,7 @@ public class DashboardController extends BaseController {
     final static String PRIVILEDGE = "DASHBOARD";
     String BASE_VIEW = "02.administration/";
     String LIST_VIEW = "dashboard";
+    String LIST_DEBITUR_VIEW = "debitur-detail";
 
     @RequestMapping("/")
     public String index(Model model, HttpSession session) {
@@ -36,19 +38,22 @@ public class DashboardController extends BaseController {
 
         return getUnauthorizedPage();
     }
+    
+    @RequestMapping("dashbord/debitur-detail")
+	public String create(Model model, HttpSession session) {
+            return BASE_VIEW + LIST_DEBITUR_VIEW;
 
-    @ServerEndpoint(value = "/websocket/chat/{usrLogin}")
-    public class Chat {
+//		if (getPriviledgeUser(session, PRIVILEDGE, NEW)) {
+//			
+//			putIntoRequest(model);
+//			
+//			return BASE_VIEW + LIST_DEBITUR_VIEW;
+//		}
+		
+		
+	}
 
-        private String usrLogin;
-        private Session session;
-        private final Map<String, Chat> connections = new ConcurrentHashMap<>();
-
-        public Map<String, Chat> getConnections() {
-            return connections;
-        }
-
-    }
+   
 
     private void putIntoRequest(Model model) {
         model.addAttribute("SELECTED_MENU", MENU);
