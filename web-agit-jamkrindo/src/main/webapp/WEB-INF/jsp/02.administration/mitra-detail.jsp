@@ -85,8 +85,8 @@
             <h2>Detail Mitra - BRI</h2>
         </div>
         <div class="row">
-            <div class="col-md-9">
-                <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+            <div class="col-md-9" style="background-color: #FFFFFF; margin-bottom: 35px; border-radius: 6px">
+                <canvas id="bar-chart-grouped" width="800" height="450" ></canvas>
             </div>
             <div class="col-md-3">
                 <div class="col-lg-7 ">
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="background-color: #FFFFFF">
+        <div class="row" style="background-color: #FFFFFF; border-radius: 6px">
             <div class="widget-header" style="margin-left: 25px; margin-bottom: 30px">
                 <h3 style="font-size: 23px; color: #354052; font-family: Source Sans Pro">Status Klaim</h3>
                 <h4 style="color: #226BAB; font-family: Source Sans Pro; font-size: 16px">Update per 11 Juli 2018 pukul 10.30 WIB</h4>
