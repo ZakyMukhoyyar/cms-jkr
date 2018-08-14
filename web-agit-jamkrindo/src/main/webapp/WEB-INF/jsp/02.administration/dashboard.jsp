@@ -192,7 +192,7 @@
                     <div class="col-md-6">
                         <li>
                             <i class="pull-left"> <img src="${pageContext.request.contextPath}/assets/img/icon-status-klaim/ic_pending proses klaim.png" height="50px" alt="logo" /></i>
-                            <p>Pending proses klaim <span class="label label-danger">120 klaim dari 900 klaim</span></p>
+                            <p><a href="${pageContext.request.contextPath}/administration/dashboard/pending-proses-klaim/">Pending proses klaim <span class="label label-danger">120 klaim dari 900 klaim</span></a></p>
                             <div class="progress progress-xs">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="200" style="width:20%">
                                     <span class="sr-only">20% Complete</span>

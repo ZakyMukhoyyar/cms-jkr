@@ -41,6 +41,34 @@
             <h2>Status Klaim - Pending proses klaim</h2>
         </div>
         <div class="row">
+            <div class="col-lg-5 ">
+                <div class="main-header">
+                    <ul class="breadcrumb">
+                        <li><i class="fa fa-home"></i></li>
+                        <li><a href="${pageContext.request.contextPath}/administration/dashboard/">Administrator</a></li>
+                        <li><a href="${pageContext.request.contextPath}/administration/dashboard/">Dashboard</a></li>
+                        <li class="active"><a href="${pageContext.request.contextPath}/administration/debitur-detail/">Pending Proses Klaim</a></li>
+                    </ul>
+                    <!--<h3> Detail Debitur </h3>-->
+                </div>
+            </div>
+            <!--                <div class="col-lg-8 ">
+                                <div class="top-content">
+                                    <ul class="list-inline quick-access">
+                                        <li>
+                                            <a href="${pageContext.request.contextPath}/administration/menu/create">
+                                                <div class="quick-access-item bg-color-blue">
+                                                    <i class="fa fa-plus"></i>
+                                                    <h5>New Menu</h5>
+                                                    <em>add new Menu data</em>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>-->
+        </div>
+        <div class="row">
             <div class="col-md-4">
                 <div class="col-lg-7 ">
                     <div class="top-content">
