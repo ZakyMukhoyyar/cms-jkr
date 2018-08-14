@@ -24,6 +24,7 @@ public class DashboardController extends BaseController {
     String BASE_VIEW = "02.administration/";
     String LIST_VIEW = "dashboard";
     String LIST_DEBITUR_VIEW = "debitur-detail";
+    String LIST_MITRA_VIEW = "list-mitra";
 
     @RequestMapping("/")
     public String index(Model model, HttpSession session) {
@@ -39,19 +40,16 @@ public class DashboardController extends BaseController {
         return getUnauthorizedPage();
     }
     
-    @RequestMapping("dashbord/debitur-detail")
-	public String create(Model model, HttpSession session) {
-            return BASE_VIEW + LIST_DEBITUR_VIEW;
+    @RequestMapping("list-mitra")
+    public String view(Model model, HttpSession session) {
+            return BASE_VIEW + LIST_MITRA_VIEW;
 
-//		if (getPriviledgeUser(session, PRIVILEDGE, NEW)) {
-//			
-//			putIntoRequest(model);
-//			
-//			return BASE_VIEW + LIST_DEBITUR_VIEW;
-//		}
-		
-		
-	}
+    }
+    
+    @RequestMapping("debitur-detail")
+    public String create(Model model, HttpSession session) {
+        return BASE_VIEW + LIST_DEBITUR_VIEW;
+    }
 
    
 
