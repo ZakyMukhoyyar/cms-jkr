@@ -68,6 +68,7 @@
                                 </div>
                             </div>-->
         </div>
+
         <div class="row">
             <div class="col-md-4">
                 <div class="col-lg-7 ">
@@ -122,9 +123,33 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <canvas id="doughnut-chart" width="800" height="600"></canvas>
+            <div class="col-md-4" style="background-color: white">
+                <canvas id="doughnut-chart" width="800" height="600" ></canvas>
+            </div>
+            <div class="col-md-7" style="background-color: white; float: right; width: 800px; height: 600px ">
+                <div class="table-responsive">
+                    <div style="float: left">
+                        <h2>Daftar Produk</h2>
+                    </div>
+                    <div style="float: right; margin-top: 20px">
+                        <input style="font-style: italic" 
+                               placeholder="Cari berdasarkan produk"
+                               size="30"/>
+                    </div>
+                    <table id="dataTable" class="table table-striped table-hover table-bordered datatable">
+                        <thead>
+                            <tr>
+                                <th>NAMA PRODUK</th>
+                                <th>MITRA</th>
+                                <th>JUMLAH DEBITUR</th>
+                                <th>POKOK</th>
+                                <th>KLAIM</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
             </div>
         </div>
+
     </body>
 </html>
