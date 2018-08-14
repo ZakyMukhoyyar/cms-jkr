@@ -25,6 +25,7 @@ public class DashboardController extends BaseController {
     String LIST_VIEW = "dashboard";
     String LIST_DEBITUR_VIEW = "debitur-detail";
     String LIST_MITRA_VIEW = "list-mitra";
+    String LIST_PENDING_PROSES_KLAIM = "pending-proses-klaim";
 
     @RequestMapping("/")
     public String index(Model model, HttpSession session) {
@@ -39,19 +40,22 @@ public class DashboardController extends BaseController {
 
         return getUnauthorizedPage();
     }
-    
+
     @RequestMapping("list-mitra")
-    public String view(Model model, HttpSession session) {
-            return BASE_VIEW + LIST_MITRA_VIEW;
+    public String viewListMitra(Model model, HttpSession session) {
+        return BASE_VIEW + LIST_MITRA_VIEW;
 
     }
-    
+
     @RequestMapping("debitur-detail")
-    public String create(Model model, HttpSession session) {
+    public String viewDebiturDetail(Model model, HttpSession session) {
         return BASE_VIEW + LIST_DEBITUR_VIEW;
     }
 
-   
+    @RequestMapping("pending-proses-klaim")
+    public String viewPendingProsesKlaim(Model model, HttpSession session) {
+        return BASE_VIEW + LIST_PENDING_PROSES_KLAIM;
+    }
 
     private void putIntoRequest(Model model) {
         model.addAttribute("SELECTED_MENU", MENU);
