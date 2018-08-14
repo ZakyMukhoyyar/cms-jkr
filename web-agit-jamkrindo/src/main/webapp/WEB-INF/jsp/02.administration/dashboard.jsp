@@ -278,7 +278,7 @@
                                     </li>
                                 </ul>
                         </ul>
-                        <p class="text-center more"><a href="#" class="btn btn-custom-primary">Lihat semua mitra</a></p>
+                        <p class="text-center more"><a href="${pageContext.request.contextPath}/administration/dashboard/list-mitra/" class="btn btn-custom-primary">Lihat semua mitra</a></p>
                     </div>
                 </div>
             </div>
@@ -335,7 +335,7 @@
                                     </li>
                                 </ul>
                         </ul>
-                        <p class="text-center more"><a href="${pageContext.request.contextPath}/administration/debitur-detail/" class="btn btn-custom-primary">Lihat semua debitur</a></p>
+                        <p class="text-center more"><a href="${pageContext.request.contextPath}/administration/dashboard/debitur-detail/" class="btn btn-custom-primary">Lihat semua debitur</a></p>
                     </div>
                 </div>
             </div>
