@@ -5,7 +5,7 @@
         <script type="text/javascript">
             $(document).ready(function () {
                 var oTable = $("#dataTable").dataTable({
-                    "sAjaxSource": "${pageContext.request.contextPath}/administration/dashboard/list-mitra"
+                    "sAjaxSource": "${pageContext.request.contextPath}/administration/dashboard/debitur-detail",
 //                    "sServerMethod": "POST",
 ////                    "scrollX": true,
 //                    "fnServerData": function (sSource, aoData, fnCallback) {
@@ -52,7 +52,7 @@
                     oTable.fnDraw();
                 });
             });
-            
+
             new Chart(document.getElementById("bar-chart-grouped"), {
                 type: 'bar',
                 data: {
@@ -278,7 +278,7 @@
                                     </li>
                                 </ul>
                         </ul>
-                        <p class="text-center more"><a href="${pageContext.request.contextPath}/administration/list-mitra/" class="btn btn-custom-primary">Lihat semua mitra</a></p>
+                        <p class="text-center more"><a href="#" class="btn btn-custom-primary">Lihat semua mitra</a></p>
                     </div>
                 </div>
             </div>
