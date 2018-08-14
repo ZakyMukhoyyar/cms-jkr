@@ -94,7 +94,7 @@
             <h2>Dashboard Klaim Mitra</h2>
         </div>
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9" style="background-color: #FFFFFF">
                 <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
             </div>
             <div class="col-md-3">
@@ -145,8 +145,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-9" style="background-color: #FFFFFF">
+        <hr class="separator">
+        <div class="row" style="background-color: #FFFFFF">
+            <div class="col-md-9">
                 <div class="widget-header" style="margin-left: 25px; margin-bottom: 30px">
                     <h3 style="font-size: 23px; color: #354052; font-family: Source Sans Pro">Status Klaim</h3>
                     <h4 style="color: #226BAB; font-family: Source Sans Pro; font-size: 16px">Update per 11 Juli 2018 pukul 10.30 WIB</h4>
@@ -239,8 +240,7 @@
                     </div>
                 </ul>
             </div>
-            <hr class="separator">
-            <div class="col-md-3" style="background-color: #FFFFFF">
+            <div class="col-md-3">
                 <div class="widget-header">
                     <div class="col-md-9">
                         <div class="widget-header">
