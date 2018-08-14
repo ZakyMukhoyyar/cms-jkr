@@ -103,7 +103,7 @@
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item bg-color-blue">
+                                    <div class="quick-access-item bg-color-blue" style="width: 250px;height: 100px;">
                                         <i class="fa fa-clock-o"></i>
                                         <h5>Rata-rata proses bulan ini</h5>
                                         <em style="font-size: 25px;">6 hari 16 jam</em>
@@ -118,7 +118,7 @@
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item bg-color-green">
+                                    <div class="quick-access-item bg-color-green" style="width: 250px;height: 100px;">
                                         <i class="fa fa-address-book-o"></i>
                                         <h5>Jumlah debitur bulan ini</h5>
                                         <em style="font-size: 25px;">620 Orang</em>
@@ -133,7 +133,7 @@
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item">
+                                    <div class="quick-access-item" style="width: 250px;height: 100px;">
                                         <i class="fa fa-money"></i>
                                         <h5>Total pengajuan bulan ini</h5>
                                         <em style="font-size: 25px;">12.760.000.000</em>
