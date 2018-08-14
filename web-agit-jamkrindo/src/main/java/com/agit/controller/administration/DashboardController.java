@@ -1,11 +1,7 @@
 package com.agit.controller.administration;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
-import javax.websocket.server.ServerEndpoint;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.agit.entity.security.SecUser;
 import com.agit.controller.BaseController;
-import static com.agit.controller.administration.MenuController.PRIVILEDGE;
 
 @Controller
 @RequestMapping("/administration/dashboard/")

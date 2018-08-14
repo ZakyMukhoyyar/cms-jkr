@@ -2,44 +2,53 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
     <head>
+        <style>
+            .col-md-6
+            {
+                position: relative;
+                min-height: 1px;
+                padding-left: 0px;
+                padding-right: 15px;
+            }
+        </style>
         <script type="text/javascript">
             $(document).ready(function () {
                 var oTable = $("#dataTable").dataTable({
                     "sAjaxSource": "${pageContext.request.contextPath}/administration/dashboard/debitur-detail",
-//                    "sServerMethod": "POST",
-////                    "scrollX": true,
-//                    "fnServerData": function (sSource, aoData, fnCallback) {
-//                        var value = $.trim($("#searchMenuName").val());
-//                        aoData.push({"name": "name", "value": value});
-//                        jQuery.ajax({
-//                            "dataType": 'json',
-//                            "type": "POST",
-//                            "url": sSource,
-//                            "data": aoData,
-//                            "success": fnCallback
-//                        });
-//                    },
-//                    "aoColumns": [
-//                        {"mDataProp": "name"},
-//                        {"mDataProp": "description"},
-//                        {"mDataProp": "url"},
-//                        {"mDataProp": "enabled"},
-//                        {"mDataProp": fnBlank, "bSortable": false}
-//                    ],
-//                    "aoColumnDefs": [
-//                        {
-//                            className: "text-center",
-//                            "mRender": StatusFormatter,
-//                            "aTargets": [3]
-//                        },
-//                        {
-//                            class: "text-center",
-//                            "mRender": function (data, type, row) {
-//                                return '<a href="${pageContext.request.contextPath}/administration/menu/edit/' + row.id + '"><span class="btn btn-danger btn-sm" type="button"><i class="fa fa-pencil-square-o"></i>Edit</span></a>';
-//                            },
-//                            "aTargets": [4]
-//                        }
-//                    ]
+                    //                    "sServerMethod": "POST",
+                    ////                    "scrollX": true,
+                    //                    "fnServerData": function (sSource, aoData, fnCallback) {
+                    //                        var value = $.trim($("#searchMenuName").val());
+                    //                        aoData.push({"name": "name", "value": value});
+                    //                        jQuery.ajax({
+                    //                            "dataType": 'json',
+                    //                            "type": "POST",
+                    //                            "url": sSource,
+                    //                            "data": aoData,
+                    //                            "success": fnCallback
+                    //                        });
+                    //                    },
+                    //                    "aoColumns": [
+                    //                        {"mDataProp": "name"},
+                    //                        {"mDataProp": "description"},
+                    //                        {"mDataProp": "url"},
+                    //                        {"mDataProp": "enabled"},
+                    //                        {"mDataProp": fnBlank, "bSortable": false}
+                    //                    ],
+                    //                    "aoColumnDefs": [
+                    //                        {
+                    //                            className: "text-center",
+                    //                            "mRender": StatusFormatter,
+                    //                            "aTargets": [3]
+                    //                        },
+                    //                        {
+                    //                            class: "text-center",
+                    //                            "mRender": function (data, type, row) {
+                    //                                return '<a href="${pageContext.request.contextPath}/administration/menu/edit/' + row.id + '"><span class="btn btn-danger btn-sm" type="button"><i class="fa fa-pencil-square-o"></i>Edit</span></a>';
+                    //                            },
+                    //                            "aTargets": [4]
+                    //                        }
+                    //                    ]
                 });
 
                 $("#btn-reset").click(function () {
@@ -229,6 +238,7 @@
                     </div>
                 </ul>
             </div>
+            <hr class="separator">
             <div class="col-md-3">
                 <div class="widget-header">
                     <div class="col-md-9">
@@ -283,6 +293,7 @@
                 </div>
             </div>
         </div>
+        <hr class="separator">
         <div class="row">
             <div class="col-md-9">
             </div>

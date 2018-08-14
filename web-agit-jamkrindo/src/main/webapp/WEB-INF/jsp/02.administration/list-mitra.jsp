@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
     <head>
         <Title>Menu | Administration</Title>
@@ -116,42 +118,42 @@
                                         <th width="5%">ACTIONS</th>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /> Bank BRI</td>
                                         <td style="text-align: center">595</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /> Bank Jatim</td>
                                         <td style="text-align: center">390</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /> Bank BNI</td>
                                         <td style="text-align: center">210</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /> Bank NTB</td>
                                         <td style="text-align: center">100</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /> Bank BRI</td>
                                         <td style="text-align: center">400</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /> Bank BNI</td>
                                         <td style="text-align: center">379</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/jatim.png" height="30px" alt="logo" /> Bank Jatim</td>
                                         <td style="text-align: center">200</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /></td>
+                                        <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /> Bank NTB</td>
                                         <td style="text-align: center">190</td>
                                         <td style="text-align: center">5.569.090.000</td>
                                     </tr>
