@@ -321,7 +321,8 @@ table.dataTable thead .sorting_desc_disabled {
 }
 
 .top-content ul.quick-access > li .quick-access-item.bg-color-blue {
-    background-color: #1D92AF;
+    /*background-color: #1D92AF;*/
+    background: linear-gradient(90deg, #278BE1 0%, #43A6F9 100%);
 }
 
 .top-content ul.quick-access > li .quick-access-item.bg-color-orange {
@@ -329,5 +330,6 @@ table.dataTable thead .sorting_desc_disabled {
 }
 
 .top-content ul.quick-access > li .quick-access-item.bg-color-green {
-    background-color: #46b37c;
+    /*background-color: #46b37c;*/
+    background: linear-gradient(90deg, #1A988A 0%, #0F877A 100%);
 }
