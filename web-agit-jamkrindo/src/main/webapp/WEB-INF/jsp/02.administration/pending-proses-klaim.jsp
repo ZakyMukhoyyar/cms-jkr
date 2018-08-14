@@ -19,7 +19,7 @@
                     datasets: [
                         {
                             label: "Population (millions)",
-                            backgroundColor: ["#3e95cd", "#8e5ea2"],
+                            backgroundColor: ["#1561A5", "#7ED2FF"],
                             data: [2478, 5267]
                         }
                     ]
@@ -71,12 +71,12 @@
 
         <div class="row">
             <div class="col-md-4">
-                <div class="col-lg-7 ">
+                <div class="col-lg-6 ">
                     <div class="top-content">
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item bg-color-blue">
+                                    <div class="quick-access-item bg-color-blue" style="width: 350px;height: 125px;">
                                         <i class="fa fa-clock-o"></i>
                                         <h5>Rata-rata proses bulan ini</h5>
                                         <em style="font-size: 25px;">6 hari 16 jam</em>
@@ -88,12 +88,12 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="col-lg-7 ">
+                <div class="col-lg-6 ">
                     <div class="top-content">
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item bg-color-green">
+                                    <div class="quick-access-item bg-color-green" style="width: 350px;height: 125px;">
                                         <i class="fa fa-address-book-o"></i>
                                         <h5>Jumlah debitur bulan ini</h5>
                                         <em style="font-size: 25px;">620 Orang</em>
@@ -105,12 +105,12 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="col-lg-7 ">
+                <div class="col-lg-6 ">
                     <div class="top-content">
                         <ul class="list-inline quick-access">
                             <li>
                                 <a>
-                                    <div class="quick-access-item">
+                                    <div class="quick-access-item" style="width: 350px;height: 125px;">
                                         <i class="fa fa-money"></i>
                                         <h5>Total pengajuan bulan ini</h5>
                                         <em style="font-size: 25px;">12.760.000.000</em>
@@ -123,18 +123,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4" style="background-color: white">
-                <canvas id="doughnut-chart" width="800" height="600" ></canvas>
+            <div class="col-md-4">
+                <canvas id="doughnut-chart" width="600" height="600" ></canvas>
             </div>
-            <div class="col-md-7" style="background-color: white; float: right; width: 800px; height: 600px ">
+            <div class="col-md-8">
                 <div class="table-responsive">
                     <div style="float: left">
                         <h2>Daftar Produk</h2>
-                    </div>
-                    <div style="float: right; margin-top: 20px">
-                        <input style="font-style: italic" 
-                               placeholder="Cari berdasarkan produk"
-                               size="30"/>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" id="searchMenuName" class="form-control" placeholder="Search ...">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <a id="btn-search" class="btn btn-primary" type="button"><i class="fa fa-search"></i> Search</a>
+                                    <a id="btn-reset" class="btn btn-default" type="button"><i class="fa fa-refresh"></i> Reset</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <table id="dataTable" class="table table-striped table-hover table-bordered datatable">
                         <thead>
@@ -144,6 +152,48 @@
                                 <th>JUMLAH DEBITUR</th>
                                 <th>POKOK</th>
                                 <th>KLAIM</th>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 1</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /> Bank BRI</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 2</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /> Bank BNI</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 3</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /> Bank BRI</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 4</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bni.png" height="30px" alt="logo" /> Bank BNI</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 5</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/bri.png" height="30px" alt="logo" /> Bank BRI</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center">Nama produk jamkrindo 6</td>
+                                <td style="text-align: center"><img src="${pageContext.request.contextPath}/assets/img/logo-bank/ntb.png" height="30px" alt="logo" /> Bank NTB</td>
+                                <td style="text-align: center">343</td>
+                                <td style="text-align: center">350.000.000</td>
+                                <td style="text-align: center">350.000.000</td>
                             </tr>
                         </thead>
                     </table>
